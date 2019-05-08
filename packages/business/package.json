@@ -1,0 +1,15 @@
+{
+  "name": "@my-awesome-project/business",
+  "version": "1.0.0",
+  "description": "Business logic of the my-awesome-project",
+  "author": "Author Name <author@gmail.com>",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Oscar170/js-layer-stack.git"
+  },
+  "scripts": {
+    "build": "BABEL_ENV=build babel src --root-mode upward --out-dir dist --source-maps --extensions .js,.jsx --delete-dir-on-start --no-comments"
+  }
+}
