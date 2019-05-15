@@ -7,7 +7,7 @@
     "start:business": "npm run test:watch -- --roots=./packages/business",
     "commit": "git-cz",
     "init": "run-s init:dependencies build:business build:pages build:app",
-    "init:dependencies": "npx lerna bootstrap",
+    "init:dependencies": "npx lerna exec npm install",
     "build:business": "npx lerna run build --scope=@my-awesome-project/business --stream",
     "build:pages": "npx lerna run build --scope=@my-awesome-project/pages --stream",
     "build:app": "npx lerna run build --scope=@my-awesome-project/app --stream",
