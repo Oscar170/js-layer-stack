@@ -23,7 +23,7 @@
     "url": "git@github.com:Oscar170/js-layer-stack.git"
   },
   "dependencies": {
-    "@my-awesome-project/pages": "^1.0.1-alpha.0",
+    "@my-awesome-project/pages": "^1.0.1-alpha.1",
     "compression": "^1.7.4",
     "express": "^4.16.4",
     "prop-types": "^15.7.2",
