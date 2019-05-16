@@ -1,6 +1,6 @@
 {
   "name": "@my-awesome-project/app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "my-awesome-project app",
   "author": "Author Name <author@gmail.com>",
   "license": "MIT",
@@ -23,7 +23,7 @@
     "url": "git@github.com:Oscar170/js-layer-stack.git"
   },
   "dependencies": {
-    "@my-awesome-project/pages": "^1.0.0",
+    "@my-awesome-project/pages": "^1.0.1",
     "compression": "^1.7.4",
     "express": "^4.16.4",
     "prop-types": "^15.7.2",

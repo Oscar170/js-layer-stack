@@ -1,6 +1,6 @@
 {
   "name": "@my-awesome-project/pages",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pages of the my-awesome-project",
   "author": "Author Name <author@gmail.com>",
   "license": "MIT",
@@ -28,6 +28,6 @@
     "styled-components": "^4.2.0"
   },
   "dependencies": {
-    "@my-awesome-project/business": "^1.0.0"
+    "@my-awesome-project/business": "^1.0.1"
   }
 }
